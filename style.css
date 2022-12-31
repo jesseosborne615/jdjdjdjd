@@ -1,0 +1,298 @@
+#main
+{
+   position:fixed;
+   top:0px;
+   bottom:0px;
+   left:0px;
+   right:0px;
+   margin: 0px;
+   padding:0;
+   
+   
+}
+body, html {
+    height: 100%;
+    width:100%;
+    margin: 0;
+
+    opacity: .85;
+}
+
+
+.userSearchClass {
+    width:210px;
+    height: 50px;
+}
+
+.main-header {
+    background-color: #38302e;
+    opacity: 1;
+}
+
+h1 {
+    font: 2.8em Sansita, sans-serif;
+    margin: 0;
+  }
+
+
+  .one {
+     
+      text-align: center;
+     
+      
+      
+  }
+  
+  .two {
+     
+      text-align: center;
+      padding-bottom: 20px;
+      
+      
+  }
+  
+  .grid {
+
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    grid-gap: 0rem;
+   
+ 
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    opacity: .85;
+  
+    
+  }
+  
+  .grid > * {
+      
+    padding: 0;
+  
+    border: 2px solid #38302e;
+    background-color: rgba(198,164,154,.2);
+    border-radius: 5px;
+  }
+  
+  .three {
+    grid-column: 1 / 3;
+  
+    text-align: center;
+  }
+
+
+
+
+
+
+
+.main-header {
+    
+	text-align: center;
+	font-size:xx-large;
+    
+background: black;
+
+
+}
+
+
+
+.box {
+    
+	border-radius: 3%;
+	border: 1px solid #38302e;
+	
+	
+}
+
+
+
+#submitBtn {
+	margin: 0;
+	
+}
+
+
+
+
+#websiteReviews {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer {
+    
+    margin-top: 0;
+    bottom: 0;
+}
+
+.rottenTStyle {
+ 
+    height: 7vh;
+    width: 20vw;
+	text-align: center;
+}
+
+.netflixInfoStyle {
+
+    height: 7vh;
+    width: 50vw;
+	text-align:center;
+}
+
+#searchHistoryHead {
+    background-color: rgb(235, 174, 174);
+    width: 110px;
+    height: 0px;
+}
+
+
+   
+    
+
+
+* {
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: "IBM Plex Sans", sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+	height: 100%;
+    
+    
+    
+}
+
+  #websiteReviews {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	margin: 0;
+	color: #E50914;
+	line-height: 1.25;
+}
+
+
+
+p {
+	font-size: 1.2rem;
+}
+
+.btn {
+	font-size: 2.0rem;
+	text-decoration: none;
+	padding: 6px 5px;
+	width: 210px;
+	display: block;
+	margin: 5px 0;
+	border-radius: var(--border-radius);
+	color: #E50914;;
+	border: none;
+	outline: none;
+	background-color: #38302e;
+	box-shadow: 3px 3px var(--dark);
+	transform: translate(-1px, -1px);
+}
+
+.mainReviews {
+	justify-content: space-between;
+	display: flex;
+}
+
+
+
+.btn:hover {
+	color: var(--primary);
+	background-color: var(--tertiary);
+	transform: translate(0, 0);
+	box-shadow: 2px 2px var(--dark);
+}
+
+.btn-inline {
+	display: inline;
+}
+
+.btn-back {
+	border-radius: var(--border-radius);
+	color: var(--primary);
+	border: none;
+	outline: none;
+	background-color: var(--light-dark);
+	box-shadow: 3px 3px var(--secondary);
+	transform: translate(-1px, -1px);
+	display: inline-block;
+	width: auto;
+	margin-top: 20px;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.btn-back:hover {
+	color: var(--primary);
+	background-color: var(--tertiary);
+	transform: translate(0, 0);
+	box-shadow: 2px 2px var(--dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userReviewClass {
+    width: 100%;
+    height: 20vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+	border:0;
+	
+    
+    
+}
+
+footer {
+	color: rgb(255, 70, 70);
+}
+
+
+
+.userNameClass {
+    text-align: right;
+    border: 0;
+}
+
+.grid {
+    height:100vh;
+    width: 100%;
+    width: 100vw;
+}
